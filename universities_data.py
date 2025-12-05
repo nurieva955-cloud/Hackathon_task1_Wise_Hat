@@ -400,4 +400,5 @@ def search_universities(query: str) -> List[University]:
                 query in ' '.join(uni.specialties).lower()):
             results.append(uni)
 
+
     return results
